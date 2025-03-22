@@ -25,9 +25,10 @@ const Index = () => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           entry.target.classList.add('animate-fade-in-up');
-          // Make sure visibility is set to visible
-          entry.target.style.visibility = 'visible';
-          entry.target.style.opacity = '1';
+          // Make sure visibility is set to visible by using proper typecasting
+          const element = entry.target as HTMLElement;
+          element.style.visibility = 'visible';
+          element.style.opacity = '1';
           observer.unobserve(entry.target);
         }
       });
@@ -37,7 +38,9 @@ const Index = () => {
     sections.forEach(section => {
       // Use visibility: hidden instead of opacity: 0 to avoid layout shifts
       section.classList.add('invisible');
-      section.style.opacity = '0';
+      // Use proper typecasting for setting style properties
+      const sectionElement = section as HTMLElement;
+      sectionElement.style.opacity = '0';
       observer.observe(section);
     });
 
