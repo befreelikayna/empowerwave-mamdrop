@@ -28,38 +28,38 @@ const Hero = () => {
           <div className="space-y-8 max-w-2xl">
             <div className="inline-flex items-center rounded-full bg-primary/10 px-3 py-1 text-sm font-medium text-primary">
               <span className="animate-pulse-subtle">✦</span>
-              <span className="ml-2">Empowering Women Through Digital Marketing</span>
+              <span className="mr-2">تمكين المرأة من خلال التسويق الالكتروني</span>
             </div>
             
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight md:leading-tight lg:leading-tight animate-fade-in">
-              Build Your <span className="text-primary">Financial Freedom</span> With MamaDrop
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight md:leading-tight lg:leading-tight animate-fade-in text-right">
+              حققي <span className="text-primary">استقلالك المادي</span> مع MamaDrop
             </h1>
             
-            <p className="text-lg md:text-xl text-foreground/80 animate-fade-in stagger-1">
-              MamaDrop is committed to empowering women through mobile-based work opportunities. Join thousands of women achieving financial independence through our digital marketing program.
+            <p className="text-lg md:text-xl text-foreground/80 animate-fade-in stagger-1 text-right">
+              MamaDrop ملتزمة بتمكين المرأة من خلال فرص العمل القائمة على الهاتف المحمول. انضمي إلى آلاف النساء اللواتي يحققن الاستقلال المالي من خلال برنامجنا للتسويق الرقمي.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 pt-4 animate-fade-in stagger-2">
+            <div className="flex flex-col sm:flex-row gap-4 pt-4 animate-fade-in stagger-2 justify-end">
               <Button size="lg">
-                Join For Free
+                انضمي مجانًا
               </Button>
               <Button variant="outline" size="lg">
-                Learn More
+                تعرفي أكثر
               </Button>
             </div>
             
             <div className="grid grid-cols-3 gap-8 pt-6 border-t border-border animate-fade-in stagger-3">
-              <div>
-                <p className="text-3xl font-bold">10K+</p>
-                <p className="text-sm text-foreground/70">Women Empowered</p>
+              <div className="text-right">
+                <p className="text-3xl font-bold">+10K</p>
+                <p className="text-sm text-foreground/70">امرأة ممكّنة</p>
               </div>
-              <div>
+              <div className="text-right">
                 <p className="text-3xl font-bold">100%</p>
-                <p className="text-sm text-foreground/70">Free Training</p>
+                <p className="text-sm text-foreground/70">تدريب مجاني</p>
               </div>
-              <div>
+              <div className="text-right">
                 <p className="text-3xl font-bold">24/7</p>
-                <p className="text-sm text-foreground/70">Support System</p>
+                <p className="text-sm text-foreground/70">نظام دعم</p>
               </div>
             </div>
           </div>
@@ -70,7 +70,7 @@ const Hero = () => {
               <img
                 ref={imageRef}
                 src="/lovable-uploads/955f22d1-c65c-4eaa-9d73-5a9d8e492b32.png"
-                alt="Women empowerment through digital marketing"
+                alt="تمكين المرأة من خلال التسويق الرقمي"
                 className="w-full h-auto object-cover opacity-0 transition-opacity"
                 style={{ aspectRatio: "4/3" }}
                 loading="eager"

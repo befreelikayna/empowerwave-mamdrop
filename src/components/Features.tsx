@@ -6,26 +6,26 @@ const Features = () => {
   const features = [
     {
       id: 1,
-      title: "Free Educational Workshops",
-      description: "We offer free training workshops across all regions. These sessions help women learn about e-commerce and affiliate marketing using their mobile devices from home.",
+      title: "ندوات تعليمية مجانية",
+      description: "نقدم ورش تدريبية مجانية في جميع المناطق. تساعد هذه الجلسات النساء على تعلم التجارة الإلكترونية والتسويق بالعمولة باستخدام أجهزتهن المحمولة من المنزل.",
       icon: "🎓"
     },
     {
       id: 2,
-      title: "Free Digital Marketing Training",
-      description: "We help women learn how to earn money from home through e-commerce using affiliate marketing. Our training program is designed to help women start earning income using just a mobile phone.",
+      title: "تدريب مجاني على التسويق الرقمي",
+      description: "نساعد النساء على تعلم كيفية كسب المال من المنزل من خلال التجارة الإلكترونية باستخدام التسويق بالعمولة. تم تصميم برنامجنا التدريبي لمساعدة النساء على بدء كسب الدخل باستخدام هاتف محمول فقط.",
       icon: "💻"
     },
     {
       id: 3,
-      title: "Join a Strong Women's Network",
-      description: "Be part of the largest women's community in e-commerce, where women help each other succeed and continuously develop their skills and businesses.",
+      title: "انضمي إلى شبكة نسائية قوية",
+      description: "كوني جزءًا من أكبر مجتمع نسائي في مجال التجارة الإلكترونية، حيث تساعد النساء بعضهن البعض على النجاح والتطوير المستمر لمهاراتهن وأعمالهن.",
       icon: "👭"
     },
     {
       id: 4,
-      title: "100% Free to Start",
-      description: "You don't need to pay anything to get started. Our program allows women to learn e-commerce and work in affiliate marketing for free from their mobile phones.",
+      title: "100% مجاني للبدء",
+      description: "لست بحاجة إلى دفع أي شيء للبدء. يتيح برنامجنا للنساء تعلم التجارة الإلكترونية والعمل في التسويق بالعمولة مجانًا من هواتفهن المحمولة.",
       icon: "🔑"
     }
   ];
@@ -35,13 +35,13 @@ const Features = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center text-center mb-16">
           <div className="inline-flex items-center rounded-full bg-primary/10 px-3 py-1 text-sm font-medium text-primary mb-6">
-            Why Choose MamaDrop
+            لماذا تختارين MamaDrop
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-6 max-w-2xl mx-auto">
-            Empowering Women Through Digital Opportunities
+            تمكين المرأة من خلال الفرص الرقمية
           </h2>
           <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
-            MamaDrop provides the tools, training, and support you need to succeed in the digital economy, all from the comfort of your home.
+            توفر MamaDrop الأدوات والتدريب والدعم الذي تحتاجين إليه للنجاح في الاقتصاد الرقمي، كل ذلك من راحة منزلك.
           </p>
         </div>
 

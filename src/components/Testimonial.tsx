@@ -9,13 +9,13 @@ const Testimonial = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center text-center mb-16">
           <div className="inline-flex items-center rounded-full bg-primary/10 px-3 py-1 text-sm font-medium text-primary mb-6">
-            Success Stories
+            قصص النجاح
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-6 max-w-2xl mx-auto">
-            Hear From Our Community
+            اسمعي من مجتمعنا
           </h2>
           <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
-            Real stories from real women who have transformed their lives through MamaDrop.
+            قصص حقيقية من نساء حقيقيات غيرن حياتهن من خلال MamaDrop.
           </p>
         </div>
 
@@ -23,16 +23,16 @@ const Testimonial = () => {
           <Card className="p-8 h-full transform transition-all duration-300 hover:-translate-y-2 hover:shadow-elevated border-t-4 border-t-primary bg-white">
             <div className="flex flex-col h-full">
               <Quote className="text-primary/40 w-12 h-12 mb-6" />
-              <p className="text-lg mb-8 flex-grow">
-                "MamaDrop has completely changed my life. As a single mother, I was struggling to make ends meet. Now I can work from home and earn enough to support my family while still being present for my children."
+              <p className="text-lg mb-8 flex-grow text-right">
+                "لقد غيرت MamaDrop حياتي تمامًا. كأم عزباء، كنت أكافح لتدبر أموري. الآن يمكنني العمل من المنزل وكسب ما يكفي لإعالة عائلتي مع الاستمرار في التواجد مع أطفالي."
               </p>
               <div className="flex items-center">
                 <div className="w-12 h-12 rounded-full bg-primary/20 overflow-hidden flex items-center justify-center text-primary font-bold">
-                  SA
+                  سع
                 </div>
-                <div className="ml-4">
-                  <p className="font-semibold">Sarah A.</p>
-                  <p className="text-sm text-foreground/60">Member since 2022</p>
+                <div className="mr-4 text-right">
+                  <p className="font-semibold">سارة ع.</p>
+                  <p className="text-sm text-foreground/60">عضوة منذ 2022</p>
                 </div>
               </div>
             </div>
@@ -41,16 +41,16 @@ const Testimonial = () => {
           <Card className="p-8 h-full transform transition-all duration-300 hover:-translate-y-2 hover:shadow-elevated border-t-4 border-t-primary bg-white">
             <div className="flex flex-col h-full">
               <Quote className="text-primary/40 w-12 h-12 mb-6" />
-              <p className="text-lg mb-8 flex-grow">
-                "The training provided by MamaDrop is incredible. I had no background in digital marketing, but they made it so easy to understand. Within two months, I was earning a stable income from my phone."
+              <p className="text-lg mb-8 flex-grow text-right">
+                "التدريب المقدم من MamaDrop مذهل. لم تكن لدي خلفية في التسويق الرقمي، لكنهم جعلوه سهل الفهم. في غضون شهرين، كنت أكسب دخلاً ثابتًا من هاتفي."
               </p>
               <div className="flex items-center">
                 <div className="w-12 h-12 rounded-full bg-primary/20 overflow-hidden flex items-center justify-center text-primary font-bold">
-                  LM
+                  لم
                 </div>
-                <div className="ml-4">
-                  <p className="font-semibold">Laila M.</p>
-                  <p className="text-sm text-foreground/60">Member since 2021</p>
+                <div className="mr-4 text-right">
+                  <p className="font-semibold">ليلى م.</p>
+                  <p className="text-sm text-foreground/60">عضوة منذ 2021</p>
                 </div>
               </div>
             </div>
@@ -59,16 +59,16 @@ const Testimonial = () => {
           <Card className="p-8 h-full transform transition-all duration-300 hover:-translate-y-2 hover:shadow-elevated border-t-4 border-t-primary bg-white">
             <div className="flex flex-col h-full">
               <Quote className="text-primary/40 w-12 h-12 mb-6" />
-              <p className="text-lg mb-8 flex-grow">
-                "The community of women at MamaDrop is so supportive. We lift each other up and share knowledge. I've made lifelong friends and business partners through this amazing platform."
+              <p className="text-lg mb-8 flex-grow text-right">
+                "مجتمع النساء في MamaDrop داعم للغاية. نحن نرفع بعضنا البعض ونشارك المعرفة. لقد كوّنت صداقات وشراكات عمل مدى الحياة من خلال هذه المنصة الرائعة."
               </p>
               <div className="flex items-center">
                 <div className="w-12 h-12 rounded-full bg-primary/20 overflow-hidden flex items-center justify-center text-primary font-bold">
-                  FZ
+                  فز
                 </div>
-                <div className="ml-4">
-                  <p className="font-semibold">Fatima Z.</p>
-                  <p className="text-sm text-foreground/60">Member since 2023</p>
+                <div className="mr-4 text-right">
+                  <p className="font-semibold">فاطمة ز.</p>
+                  <p className="text-sm text-foreground/60">عضوة منذ 2023</p>
                 </div>
               </div>
             </div>

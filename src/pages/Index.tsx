@@ -11,6 +11,10 @@ import Footer from '@/components/Footer';
 const Index = () => {
   // Add scroll reveal animation
   useEffect(() => {
+    // Set RTL direction for Arabic content
+    document.documentElement.dir = "rtl";
+    document.documentElement.lang = "ar";
+    
     const observerOptions = {
       root: null,
       rootMargin: '0px',

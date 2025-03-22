@@ -17,15 +17,15 @@ const Cta = () => {
           
           <div className="max-w-4xl mx-auto text-center relative z-10">
             <div className="inline-flex items-center rounded-full bg-white/20 px-3 py-1 text-sm font-medium text-white mb-6 backdrop-blur-sm">
-              Join Our Movement
+              انضمي إلى حركتنا
             </div>
             
             <h2 className="text-3xl md:text-5xl font-bold mb-6 text-white">
-              Start Your Journey Towards Financial Independence Today
+              ابدئي رحلتك نحو الاستقلال المالي اليوم
             </h2>
             
             <p className="text-lg md:text-xl text-white/80 mb-10 max-w-2xl mx-auto">
-              Join thousands of women who are already achieving their dreams with MamaDrop. No investment required - just your dedication and a mobile phone.
+              انضمي إلى آلاف النساء اللواتي يحققن أحلامهن بالفعل مع MamaDrop. لا يلزم أي استثمار - فقط تفانيك وهاتف محمول.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -33,14 +33,14 @@ const Cta = () => {
                 size="lg" 
                 className="bg-white text-primary hover:bg-white/90"
               >
-                Register Now - It's Free
+                سجلي الآن - مجانًا
               </Button>
               <Button 
                 variant="outline" 
                 size="lg" 
                 className="text-white border-white hover:bg-white/10"
               >
-                Learn More
+                اعرفي المزيد
               </Button>
             </div>
           </div>

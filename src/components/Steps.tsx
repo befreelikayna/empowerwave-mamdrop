@@ -6,26 +6,26 @@ const Steps = () => {
   const steps = [
     {
       id: 1,
-      title: "Free Registration",
-      description: "Sign up without any financial commitment and become part of our empowering community.",
+      title: "التسجيل المجاني",
+      description: "سجلي بدون أي التزام مالي وكوني جزءًا من مجتمعنا المُمكّن.",
       icon: "📝"
     },
     {
       id: 2,
-      title: "Learning & Training",
-      description: "Access free courses and live workshops led by industry experts in digital marketing.",
+      title: "التعلم والتدريب",
+      description: "استفيدي من الدورات المجانية وورش العمل المباشرة التي يقودها خبراء في مجال التسويق الرقمي.",
       icon: "🧠"
     },
     {
       id: 3,
-      title: "Marketing & Earning",
-      description: "Start promoting products and earn commissions for each successful referral you make.",
+      title: "التسويق والكسب",
+      description: "ابدئي بالترويج للمنتجات واكسبي عمولات مقابل كل إحالة ناجحة تقومين بها.",
       icon: "💰"
     },
     {
       id: 4,
-      title: "Growth & Leadership",
-      description: "Develop your skills, build a team, and help other women succeed in their journey.",
+      title: "النمو والقيادة",
+      description: "طوري مهاراتك، وابني فريقك، وساعدي النساء الأخريات على النجاح في رحلتهن.",
       icon: "🚀"
     }
   ];
@@ -35,13 +35,13 @@ const Steps = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center text-center mb-16">
           <div className="inline-flex items-center rounded-full bg-primary/10 px-3 py-1 text-sm font-medium text-primary mb-6">
-            How MamaDrop Works
+            كيف يعمل MamaDrop
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-6 max-w-2xl mx-auto">
-            Simple Steps to Financial Independence
+            خطوات بسيطة نحو الاستقلال المالي
           </h2>
           <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
-            Our program makes it easy to start and grow your online business, even if you have no prior experience.
+            يجعل برنامجنا من السهل بدء وتنمية عملك عبر الإنترنت، حتى لو لم يكن لديك خبرة سابقة.
           </p>
         </div>
 
@@ -57,8 +57,8 @@ const Steps = () => {
               }`}
             >
               <div className={`flex-1 ${index % 2 === 0 ? 'md:pr-8' : 'md:pl-8'}`}>
-                <h3 className="text-2xl font-bold mb-3">{step.title}</h3>
-                <p className="text-foreground/70">{step.description}</p>
+                <h3 className="text-2xl font-bold mb-3 text-right">{step.title}</h3>
+                <p className="text-foreground/70 text-right">{step.description}</p>
               </div>
 
               <div className="relative flex items-center justify-center">
