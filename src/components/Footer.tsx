@@ -12,8 +12,8 @@ const Footer = () => {
             <Link to="/" className="inline-block mb-6">
               <span className="text-2xl font-bold">MamaDrop</span>
             </Link>
-            <p className="text-foreground/70 mb-6 max-w-xs">
-              Empowering women through digital marketing opportunities, creating financial independence from the comfort of home.
+            <p className="text-foreground/70 mb-6 max-w-xs text-right">
+              تمكين النساء من خلال فرص التسويق الرقمي، وخلق الاستقلال المالي من راحة المنزل.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="w-10 h-10 rounded-full bg-foreground/5 flex items-center justify-center text-foreground/70 hover:bg-primary/10 hover:text-primary transition-colors">
@@ -32,65 +32,65 @@ const Footer = () => {
           </div>
           
           <div>
-            <h3 className="text-lg font-semibold mb-6">Quick Links</h3>
-            <ul className="space-y-4">
+            <h3 className="text-lg font-semibold mb-6 text-right">روابط سريعة</h3>
+            <ul className="space-y-4 text-right">
               <li>
-                <Link to="/" className="text-foreground/70 hover:text-primary transition-colors">Home</Link>
+                <Link to="/" className="text-foreground/70 hover:text-primary transition-colors">الرئيسية</Link>
               </li>
               <li>
-                <Link to="/about" className="text-foreground/70 hover:text-primary transition-colors">About Us</Link>
+                <Link to="/about" className="text-foreground/70 hover:text-primary transition-colors">من نحن</Link>
               </li>
               <li>
-                <Link to="/programs" className="text-foreground/70 hover:text-primary transition-colors">Programs</Link>
+                <Link to="/programs" className="text-foreground/70 hover:text-primary transition-colors">البرامج</Link>
               </li>
               <li>
-                <Link to="/testimonials" className="text-foreground/70 hover:text-primary transition-colors">Success Stories</Link>
+                <Link to="/testimonials" className="text-foreground/70 hover:text-primary transition-colors">قصص النجاح</Link>
               </li>
               <li>
-                <Link to="/contact" className="text-foreground/70 hover:text-primary transition-colors">Contact</Link>
-              </li>
-            </ul>
-          </div>
-          
-          <div>
-            <h3 className="text-lg font-semibold mb-6">Programs</h3>
-            <ul className="space-y-4">
-              <li>
-                <Link to="/digital-marketing" className="text-foreground/70 hover:text-primary transition-colors">Digital Marketing</Link>
-              </li>
-              <li>
-                <Link to="/affiliate-program" className="text-foreground/70 hover:text-primary transition-colors">Affiliate Program</Link>
-              </li>
-              <li>
-                <Link to="/workshops" className="text-foreground/70 hover:text-primary transition-colors">Free Workshops</Link>
-              </li>
-              <li>
-                <Link to="/mentorship" className="text-foreground/70 hover:text-primary transition-colors">Mentorship</Link>
-              </li>
-              <li>
-                <Link to="/community" className="text-foreground/70 hover:text-primary transition-colors">Community</Link>
+                <Link to="/contact" className="text-foreground/70 hover:text-primary transition-colors">اتصل بنا</Link>
               </li>
             </ul>
           </div>
           
           <div>
-            <h3 className="text-lg font-semibold mb-6">Contact Us</h3>
-            <ul className="space-y-4 text-foreground/70">
-              <li>Marrakech, Morocco</li>
+            <h3 className="text-lg font-semibold mb-6 text-right">البرامج</h3>
+            <ul className="space-y-4 text-right">
+              <li>
+                <Link to="/digital-marketing" className="text-foreground/70 hover:text-primary transition-colors">التسويق الرقمي</Link>
+              </li>
+              <li>
+                <Link to="/affiliate-program" className="text-foreground/70 hover:text-primary transition-colors">برنامج التسويق بالعمولة</Link>
+              </li>
+              <li>
+                <Link to="/workshops" className="text-foreground/70 hover:text-primary transition-colors">ورش عمل مجانية</Link>
+              </li>
+              <li>
+                <Link to="/mentorship" className="text-foreground/70 hover:text-primary transition-colors">التوجيه والإرشاد</Link>
+              </li>
+              <li>
+                <Link to="/community" className="text-foreground/70 hover:text-primary transition-colors">المجتمع</Link>
+              </li>
+            </ul>
+          </div>
+          
+          <div>
+            <h3 className="text-lg font-semibold mb-6 text-right">اتصل بنا</h3>
+            <ul className="space-y-4 text-foreground/70 text-right">
+              <li>مراكش، المغرب</li>
               <li>info@mamadrop.com</li>
-              <li>+212 5XX-XXXXXX</li>
+              <li dir="ltr">+212 5XX-XXXXXX</li>
             </ul>
           </div>
         </div>
         
         <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-foreground/60 text-sm mb-4 md:mb-0">
-            © {new Date().getFullYear()} MamaDrop. All rights reserved.
+            © {new Date().getFullYear()} MamaDrop. جميع الحقوق محفوظة.
           </p>
           <div className="flex space-x-6 text-sm">
-            <Link to="/privacy" className="text-foreground/60 hover:text-primary transition-colors">Privacy Policy</Link>
-            <Link to="/terms" className="text-foreground/60 hover:text-primary transition-colors">Terms of Service</Link>
-            <Link to="/cookies" className="text-foreground/60 hover:text-primary transition-colors">Cookie Policy</Link>
+            <Link to="/privacy" className="text-foreground/60 hover:text-primary transition-colors">سياسة الخصوصية</Link>
+            <Link to="/terms" className="text-foreground/60 hover:text-primary transition-colors">شروط الخدمة</Link>
+            <Link to="/cookies" className="text-foreground/60 hover:text-primary transition-colors">سياسة ملفات تعريف الارتباط</Link>
           </div>
         </div>
       </div>

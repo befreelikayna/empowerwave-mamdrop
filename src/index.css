@@ -82,8 +82,53 @@
     @apply bg-background text-foreground font-sans;
   }
 
+  /* RTL Support */
   html[dir="rtl"] body {
     text-align: right;
+  }
+
+  /* Fix for spacing in RTL layouts */
+  html[dir="rtl"] .space-x-4 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 1;
+  }
+
+  html[dir="rtl"] .space-x-8 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 1;
+  }
+
+  /* Add RTL margin and padding utility classes */
+  .mr-auto {
+    margin-right: auto;
+  }
+
+  .ml-auto {
+    margin-left: auto;
+  }
+
+  html[dir="rtl"] .rtl-mr-auto {
+    margin-right: auto;
+    margin-left: 0;
+  }
+  
+  html[dir="rtl"] .rtl-ml-auto {
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  /* Fix animations for RTL */
+  @keyframes fadeInRTL {
+    from {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  html[dir="rtl"] .animate-fade-in-up {
+    animation: fadeInRTL 0.8s ease-out forwards;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -115,6 +160,11 @@
   
   .chip {
     @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-medium;
+  }
+
+  /* Add invisible class that maintains layout */
+  .invisible {
+    visibility: hidden;
   }
 }
 

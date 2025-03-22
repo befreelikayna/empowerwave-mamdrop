@@ -27,15 +27,8 @@ const CustomHead: React.FC<CustomHeadProps> = ({
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
-      <script>
-        {`
-          document.addEventListener("DOMContentLoaded", function () {
-            document.documentElement.dir = "rtl";
-            document.documentElement.lang = "ar";
-            document.body.style.textAlign = "right";
-          });
-        `}
-      </script>
+      <html lang="ar" dir="rtl" />
+      <body className="rtl" />
     </Helmet>
   );
 };

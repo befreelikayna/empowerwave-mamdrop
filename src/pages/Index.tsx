@@ -25,6 +25,9 @@ const Index = () => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           entry.target.classList.add('animate-fade-in-up');
+          // Make sure visibility is set to visible
+          entry.target.style.visibility = 'visible';
+          entry.target.style.opacity = '1';
           observer.unobserve(entry.target);
         }
       });
@@ -32,7 +35,9 @@ const Index = () => {
 
     const sections = document.querySelectorAll('section > div');
     sections.forEach(section => {
-      section.classList.add('opacity-0');
+      // Use visibility: hidden instead of opacity: 0 to avoid layout shifts
+      section.classList.add('invisible');
+      section.style.opacity = '0';
       observer.observe(section);
     });
 
@@ -44,9 +49,9 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen" dir="rtl" lang="ar">
       <Navbar />
-      <main className="flex-grow">
+      <main className="flex-grow pt-20"> {/* Add padding-top to account for fixed navbar */}
         <Hero />
         <Features />
         <Steps />

@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Menu, X, ShoppingBag } from 'lucide-react';
+import { Menu, X, Globe } from 'lucide-react';
 import Button from './common/Button';
 
 const Navbar = () => {
@@ -44,34 +44,41 @@ const Navbar = () => {
               to="/" 
               className="text-foreground/80 hover:text-foreground transition-colors"
             >
-              Home
+              الرئيسية
             </Link>
             <Link 
               to="/about" 
               className="text-foreground/80 hover:text-foreground transition-colors"
             >
-              About
+              من نحن
             </Link>
             <Link 
               to="/programs" 
               className="text-foreground/80 hover:text-foreground transition-colors"
             >
-              Programs
+              البرامج
             </Link>
             <Link 
               to="/contact" 
               className="text-foreground/80 hover:text-foreground transition-colors"
             >
-              Contact
+              اتصل بنا
             </Link>
           </nav>
 
           <div className="flex items-center space-x-4">
+            <button
+              className="p-2 rounded-full text-foreground hover:bg-primary/10 transition-colors"
+              aria-label="تغيير اللغة"
+            >
+              <Globe size={20} />
+            </button>
+            
             <Button 
               variant="primary"
               className="hidden md:flex"
             >
-              Join Now
+              انضمي الآن
             </Button>
 
             <button 
@@ -107,28 +114,28 @@ const Navbar = () => {
             className="text-2xl font-medium"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            Home
+            الرئيسية
           </Link>
           <Link 
             to="/about" 
             className="text-2xl font-medium"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            About
+            من نحن
           </Link>
           <Link 
             to="/programs" 
             className="text-2xl font-medium"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            Programs
+            البرامج
           </Link>
           <Link 
             to="/contact" 
             className="text-2xl font-medium"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            Contact
+            اتصل بنا
           </Link>
           <Button
             variant="primary"
@@ -136,7 +143,7 @@ const Navbar = () => {
             className="mt-8"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            Join Now
+            انضمي الآن
           </Button>
         </div>
       </div>

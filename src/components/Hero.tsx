@@ -69,7 +69,7 @@ const Hero = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-elevated bg-white p-2">
               <img
                 ref={imageRef}
-                src="/lovable-uploads/955f22d1-c65c-4eaa-9d73-5a9d8e492b32.png"
+                src="/lovable-uploads/ca850c3c-d8c0-4081-ab36-bb4af5e83d9a.png"
                 alt="تمكين المرأة من خلال التسويق الرقمي"
                 className="w-full h-auto object-cover opacity-0 transition-opacity"
                 style={{ aspectRatio: "4/3" }}
